@@ -14,7 +14,7 @@ sanity check gpu info:
 > `01:00.0 3D controller: NVIDIA Corporation GP107M [GeForce GTX 1050 Ti Mobile] (rev a1)`  
 
 ### 3.  
-use miniconda to more easily and flexibly manage cuda and cudnn:  
+use miniconda to more easily and flexibly manage cuda and cudnn (be sure to buy a license for commercial projects):  
 - download  
 `pushd ~`
 `curl -O https://repo.anaconda.com/archive/Miniconda3-latest-Linux-x86_64.sh`  

@@ -29,7 +29,7 @@ use miniconda to more easily and flexibly manage cuda and cudnn:
 `conda update -n base conda`  
 `conda install -n base conda-libmamba-solver`  
 `conda config --set solver libmamba`   
-- create conda env
+- create conda env  
 `conda create -n pytorch-env python=3.11`  
 `conda activate pytorch-env`  
 - install cudatoolkit  
@@ -42,7 +42,7 @@ install pytorch:
 `conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia`  
 
 ### 5.  
-test:
+test:  
 `nvcc --version`  
 `python`  
 `import torch`  

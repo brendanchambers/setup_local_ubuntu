@@ -19,7 +19,7 @@ use miniconda to more easily and flexibly manage cuda and cudnn:
 `pushd ~`
 `curl -O https://repo.anaconda.com/archive/Miniconda3-latest-Linux-x86_64.sh`  
 - install  
-`curl -O https://repo.anaconda.com/archive/Anaconda3-<INSTALLER_VERSION>-Linux-x86_64.sh`  
+`curl -O https://repo.anaconda.com/archive/Miniconda3-latest-Linux-x86_64.sh`  
 - manually accept license, autorun `conda init`, etc  
 - restart  
 `source ~/.bashrc`  

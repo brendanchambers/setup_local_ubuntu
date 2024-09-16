@@ -3,17 +3,17 @@ docs on setup steps for local projects
 2024-09-15  
 Ubuntu 24.04.1  
 
-***1.  
+###1.  
 verify nvidia drivers were installed by ubuntu installer:  
 `nvidia-smi`  
 > `NVIDIA-SMI 550.107.02             Driver Version: 550.107.02     CUDA Version: 12.4`  
 
-***2.  
+###2.  
 sanity check gpu info:  
 `lspci | grep -i nvidia`  
 > `01:00.0 3D controller: NVIDIA Corporation GP107M [GeForce GTX 1050 Ti Mobile] (rev a1)`  
 
-***3.  
+###3.  
 use miniconda to more easily and flexibly manage cuda and cudnn:  
 - download  
 `pushd ~`
@@ -37,13 +37,13 @@ use miniconda to more easily and flexibly manage cuda and cudnn:
 - install cudnn  
 `conda install -c conda-forge cudnn`  
 
-***4.  
+###4.  
 install pytorch:  
 `conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia`  
 
-***5.  
+###5.  
 test:
 `nvcc --version`  
 `python`  
 `import torch`  
-`quit()`  
+`quit()`

@@ -14,11 +14,14 @@ sanity check gpu info:
 > `01:00.0 3D controller: NVIDIA Corporation GP107M [GeForce GTX 1050 Ti Mobile] (rev a1)`  
 
 3.  
-manage cuda and cudnn via anaconda:  
-- download installer for miniconda  
-curl -O https://repo.anaconda.com/archive/Miniconda3-latest-Linux-x86_64.sh 
-- install
-`cd ~/Downloads`
-`curl -O https://repo.anaconda.com/archive/Anaconda3-<INSTALLER_VERSION>-Linux-x86_64.sh`
+using miniconda to more easily and flexibly manage cuda and cudnn:  
+- download  
+`pushd ~`
+`curl -O https://repo.anaconda.com/archive/Miniconda3-latest-Linux-x86_64.sh`  
+- install  
+`curl -O https://repo.anaconda.com/archive/Anaconda3-<INSTALLER_VERSION>-Linux-x86_64.sh`  
+- manually accept license, etc  
+- restart  
+`source ~/.bashrc`  
 
 
